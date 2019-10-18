@@ -1,0 +1,6 @@
+framework module Niub {
+  umbrella header "Niub-umbrella.h"
+
+  export *
+  module * { export * }
+}
