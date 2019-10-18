@@ -59,7 +59,6 @@
 		391BF90859DB31D4A558D706732DF4FF /* KWContainMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1DDEE22CEAEE950A97FE08A8233D61 /* KWContainMatcher.m */; };
 		39505DF6C694599E509E1B6C60958484 /* NSObject+KiwiVerifierAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 910FFD9EF2E6F7BE98ADDE16C6C759BA /* NSObject+KiwiVerifierAdditions.m */; };
 		39A79E4068D67CFE215FF9FF8F50DFD5 /* KWStringContainsMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC61CA401DBF2FA43FD52E31E8AD62A /* KWStringContainsMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B4E146323599E350093FB74 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4E146223599E350093FB74 /* ReplaceMe.m */; };
 		3DBBC198220A6E99781CADC3189D36E1 /* KWHaveMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A028128E90E1E0856EEA66B9A5A6E6 /* KWHaveMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DC4A32E9F870135C404D03A269593DC /* KWBlockRaiseMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = DF32F82C31A3A3FA65A914ABA49510EF /* KWBlockRaiseMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E2076BC8C4EEC622C5E0D37BF27B1E9 /* KWGenericMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 241CACE477D2E9D5EA5E7D4FA66A11F7 /* KWGenericMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -303,7 +302,8 @@
 		361BAE2B9974E156FC48DF12B5082BF7 /* NSObject+KiwiStubAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KiwiStubAdditions.m"; path = "Classes/Stubbing/NSObject+KiwiStubAdditions.m"; sourceTree = "<group>"; };
 		366060D65FCC6E057992403D87EF52FB /* KWNilMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWNilMatcher.h; path = Classes/Matchers/KWNilMatcher.h; sourceTree = "<group>"; };
 		392CC808F96D09417837DBF7CCB10CB0 /* KWValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWValue.m; path = Classes/Core/KWValue.m; sourceTree = "<group>"; };
-		3B4E146223599E350093FB74 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = Niub/ReplaceMe.m; sourceTree = "<group>"; };
+		3B4E146A2359B59A0093FB74 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Test.h; path = Niub/Classes/Test.h; sourceTree = "<group>"; };
+		3B4E146B2359B59A0093FB74 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Test.m; path = Niub/Classes/Test.m; sourceTree = "<group>"; };
 		3D0908F9B04FEA2041E6791C1A6A2D39 /* KWFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWFormatter.m; path = Classes/Core/KWFormatter.m; sourceTree = "<group>"; };
 		3DEAD0FAF4CCBB2816B971A485F42199 /* KWAny.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWAny.h; path = Classes/Core/KWAny.h; sourceTree = "<group>"; };
 		40BCCA69FCEC08C748A1AB0932012A1C /* KWExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExample.h; path = Classes/Core/KWExample.h; sourceTree = "<group>"; };
@@ -939,9 +939,10 @@
 		FBB4255416FC830689252E4471BBB0D6 /* Niub */ = {
 			isa = PBXGroup;
 			children = (
-				3B4E146223599E350093FB74 /* ReplaceMe.m */,
 				2E2B4F8FB0BCE8D39BFC69B8C5DA531E /* Pod */,
 				20E021610B66450C655815DD0EFA5498 /* Support Files */,
+				3B4E146A2359B59A0093FB74 /* Test.h */,
+				3B4E146B2359B59A0093FB74 /* Test.m */,
 			);
 			name = Niub;
 			path = ../..;
@@ -1400,7 +1401,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B4E146323599E350093FB74 /* ReplaceMe.m in Sources */,
 				D8BA4DD5B99E0182FDD550431D63656C /* Niub-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
