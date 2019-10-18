@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Niub'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Niub.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Niub/*'
+  s.source_files = 'Niub/Class/**/*'
   
   # s.resource_bundles = {
   #   'Niub' => ['Niub/Assets/*.png']
