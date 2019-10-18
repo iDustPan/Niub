@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'Niub_Example' do
+  pod 'Niub', :path => '../'
+
+  target 'Niub_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+    pod 'FBSnapshotTestCase'
+  end
+end
